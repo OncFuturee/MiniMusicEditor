@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>music/dianzi-01_WAV_01.wav</file>
+        <file>music/dianzi-02_WAV_01.wav</file>
+        <file>music/dianzi-03_WAV_01.wav</file>
+        <file>music/dianzi-04_WAV_01.wav</file>
+        <file>music/dianzi-05_WAV_01.wav</file>
+        <file>music/dianzi-06_WAV_01.wav</file>
+        <file>music/dianzi-07_WAV_01.wav</file>
+        <file>music/dianzi-08_WAV_01.wav</file>
+        <file>music/gu-01_WAV_01.wav</file>
+        <file>music/gu-02_WAV_01.wav</file>
+        <file>music/gu-03_WAV_01.wav</file>
+        <file>music/gu-04_WAV_01.wav</file>
+        <file>music/gu-05_WAV_01.wav</file>
+        <file>music/gu-06_WAV_01.wav</file>
+        <file>music/gu-07_WAV_01.wav</file>
+        <file>music/gu-08_WAV_01.wav</file>
+        <file>music/zonghe-01_WAV_01.wav</file>
+        <file>music/zonghe-02_WAV_01.wav</file>
+        <file>music/zonghe-03_WAV_01.wav</file>
+        <file>music/zonghe-04_WAV_01.wav</file>
+        <file>music/zonghe-05_WAV_01.wav</file>
+        <file>music/zonghe-06_WAV_01.wav</file>
+        <file>music/zonghe-07_WAV_01.wav</file>
+        <file>music/zonghe-08_WAV_01.wav</file>
+    </qresource>
+</RCC>

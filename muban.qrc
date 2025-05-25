@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>muban/muban1.txt</file>
+        <file>muban/muban2.txt</file>
+    </qresource>
+</RCC>
