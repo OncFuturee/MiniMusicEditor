@@ -1,0 +1,21 @@
+}
+local BUILDX,BUILDY,BUILDZ,BLOCKID,BlockData,NowBuild,NumberOfDATA_?_Blocks=0,0,0,0,0,0,0
+DATA_?_IS_OVER=0
+NumberOfBlocks=NumberOfBlocks+(#DATD_?/5)
+NumberOfDATA_?_Blocks=(#DATD_?/5)
+local function BuildOneBlock()
+    for i=1,100,1 do
+        BUILDX,BUILDY,BUILDZ,BLOCKID,BlockData=DATD_?[NowBuild*5+1],DATD_?[NowBuild*5+2],DATD_?[NowBuild*5+3],DATD_?[NowBuild*5+4],DATD_?[NowBuild*5+5]
+        Block:setBlockAll(BUILDX,BUILDY,BUILDZ,BLOCKID,BlockData)
+        NowBuild=NowBuild+1
+        NumberOfBuildedBlocks=NumberOfBuildedBlocks+1
+        if NowBuild==NumberOfDATA_?_Blocks then break end
+    end
+    RATE_OF_PROGRESS_MSG()
+end
+return function()
+    if NowBuild<NumberOfBlocks and STOP_BEGAN_FLAG==1 and NowBuild<NumberOfDATA_?_Blocks and NumberOfBlocks%1==0 and DATA_!_IS_OVER==1 then
+        BuildOneBlock()
+        if NowBuild==NumberOfDATA_?_Blocks then Chat:sendSystemMsg("DATA_?已创建完毕") DATA_?_IS_OVER=1 end
+    end
+end

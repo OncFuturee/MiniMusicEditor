@@ -1,0 +1,47 @@
+}
+local BUILDX,BUILDY,BUILDZ,BLOCKID,BlockData,NowBuild,NumberOfDATA_1_Blocks=0,0,0,0,0,0,0
+NumberOfBlocks,NumberOfBuildedBlocks=0,0
+DATA_1_IS_OVER,RATE_OF_PROGRESS,STOP_BEGAN_FLAG=0,0,0
+NumberOfBlocks=NumberOfBlocks+(#DATD_1/5)
+NumberOfDATA_1_Blocks=(#DATD_1/5)
+function RATE_OF_PROGRESS_MSG()
+    if RATE_OF_PROGRESS~=(((NumberOfBuildedBlocks/NumberOfBlocks)-((NumberOfBuildedBlocks/NumberOfBlocks)%0.01))*100) then
+        RATE_OF_PROGRESS=(((NumberOfBuildedBlocks/NumberOfBlocks)-((NumberOfBuildedBlocks/NumberOfBlocks)%0.01))*100)
+        Chat:sendSystemMsg("all:"..NumberOfBlocks.."builded:"..NumberOfBuildedBlocks)
+        Chat:sendSystemMsg("进度:"..RATE_OF_PROGRESS.."%".."\n\n\n\n\n\n\n")
+    end
+end
+function CHANGEFLAG()
+    if  STOP_BEGAN_FLAG==0 then
+        if  NumberOfBlocks~=NumberOfBuildedBlocks and NumberOfBlocks%1==0 then
+            Chat:sendSystemMsg("开始")
+            STOP_BEGAN_FLAG=1
+        end
+        if NumberOfBlocks%1~=0 then Chat:sendSystemMsg("数据错误,请更正") end
+    else
+        if  NumberOfBlocks~=NumberOfBuildedBlocks and NumberOfBlocks%1==0 then
+            Chat:sendSystemMsg("暂停")
+            STOP_BEGAN_FLAG=0
+        end
+    end
+    if  NumberOfBlocks==NumberOfBuildedBlocks then
+        Chat:sendSystemMsg("#R已创建完毕")
+    end
+end
+local function BuildOneBlock()
+    for i=1,100,1 do
+        BUILDX,BUILDY,BUILDZ,BLOCKID,BlockData=DATD_1[NowBuild*5+1],DATD_1[NowBuild*5+2],DATD_1[NowBuild*5+3],DATD_1[NowBuild*5+4],DATD_1[NowBuild*5+5]
+        NowBuild=NowBuild+1
+        Block:setBlockAll(BUILDX,BUILDY,BUILDZ,BLOCKID,BlockData)
+        NumberOfBuildedBlocks=NumberOfBuildedBlocks+1
+        if NowBuild==NumberOfDATA_1_Blocks then break end
+    end
+    RATE_OF_PROGRESS_MSG()
+end
+ScriptSupportEvent:registerEvent([=[Player.PlayAction]=],CHANGEFLAG)
+return function()
+    if NowBuild<NumberOfBlocks and STOP_BEGAN_FLAG==1 and NowBuild<NumberOfDATA_1_Blocks and NumberOfBlocks%1==0 then
+        BuildOneBlock()
+        if NowBuild==NumberOfDATA_1_Blocks then Chat:sendSystemMsg("DATA_1已创建完毕") DATA_1_IS_OVER=1 end
+    end
+end

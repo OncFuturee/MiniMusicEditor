@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>search.png</file>
+        <file>diyin.png</file>
+        <file>zhongyin.png</file>
+        <file>gaoyin.png</file>
+        <file>gu.png</file>
+        <file>dianzi.png</file>
+        <file>zhonghe.png</file>
+        <file>pianobg.png</file>
+        <file>maoboli.jpg</file>
+        <file>bg2.jpg</file>
+        <file>bg4.jpg</file>
+        <file>bg5.jpg</file>
+        <file>bg6.jpg</file>
+        <file>bg7.jpg</file>
+        <file>bg1.jpg</file>
+        <file>bg3.jpg</file>
+        <file>bg8.png</file>
+    </qresource>
+</RCC>

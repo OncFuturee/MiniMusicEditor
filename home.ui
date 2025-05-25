@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HOME</class>
+ <widget class="QMainWindow" name="HOME">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1322</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HOME</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>220</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>220</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#widget_2{border-image: url(:/image/maoboli.jpg);}
+</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;本软件免费,禁止商用!!!&lt;/p&gt;&lt;p&gt;QQ交流群:786820182&lt;/p&gt;&lt;p&gt;迷你号:32596640&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel#label_3{border-image: url(:/image/bg8.png);}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_10">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>300</height>
+          </size>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QGroupBox" name="groupBox_9">
+            <property name="maximumSize">
+             <size>
+              <width>60</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>28</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_4">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="toolTip">
+                <string>选择鼓</string>
+               </property>
+               <property name="text">
+                <string>鼓</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_5">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="toolTip">
+                <string>选择电子</string>
+               </property>
+               <property name="text">
+                <string>电子</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioButton_6">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>51</height>
+                </size>
+               </property>
+               <property name="toolTip">
+                <string>选择综合</string>
+               </property>
+               <property name="text">
+                <string>综合</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>23</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_8">
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>2</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>2</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <spacer name="verticalSpacer_5">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_5">
+               <property name="title">
+                <string>鼓</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <item>
+                 <widget class="QLabel" name="label_7">
+                  <property name="minimumSize">
+                   <size>
+                    <width>51</width>
+                    <height>51</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>51</width>
+                    <height>51</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>鼓</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap resource="image.qrc">:/image/gu.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="comboBox">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                    <horstretch>50</horstretch>
+                    <verstretch>50</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>21</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>21</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>10</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                    <stylestrategy>PreferAntialias</stylestrategy>
+                   </font>
+                  </property>
+                  <property name="toolTip">
+                   <string>选择音色</string>
+                  </property>
+                  <property name="toolTipDuration">
+                   <number>-1</number>
+                  </property>
+                  <property name="statusTip">
+                   <string/>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string comment="初始音色" extracomment="初始音色">鼓1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击一下后音色">鼓2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击两下后音色">鼓3</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击三下后音色">鼓4</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击四下后音色">鼓5</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击五下后音色">鼓6</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击六下后音色">鼓7</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击七下后音色">鼓8</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_6">
+               <property name="title">
+                <string>电子</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <item>
+                 <widget class="QLabel" name="label_8">
+                  <property name="minimumSize">
+                   <size>
+                    <width>51</width>
+                    <height>51</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>51</width>
+                    <height>51</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>电子</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap resource="image.qrc">:/image/dianzi.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="comboBox_2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>22</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>22</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>10</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                    <stylestrategy>PreferAntialias</stylestrategy>
+                   </font>
+                  </property>
+                  <property name="toolTip">
+                   <string>选择音色</string>
+                  </property>
+                  <property name="toolTipDuration">
+                   <number>-1</number>
+                  </property>
+                  <property name="statusTip">
+                   <string/>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string comment="初始音色" extracomment="初始音色">电子1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击一下后音色">电子2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击两下后音色">电子3</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击三下后音色">电子4</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击四下后音色">电子5</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击五下后音色">电子6</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击六下后音色">电子7</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击七下后音色">电子8</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_7">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_7">
+               <property name="title">
+                <string>综合</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_7">
+                <item>
+                 <widget class="QLabel" name="label_9">
+                  <property name="minimumSize">
+                   <size>
+                    <width>51</width>
+                    <height>51</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>51</width>
+                    <height>51</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string>综合</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap resource="image.qrc">:/image/zhonghe.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="comboBox_3">
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>22</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>101</width>
+                    <height>22</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>10</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                    <stylestrategy>PreferAntialias</stylestrategy>
+                   </font>
+                  </property>
+                  <property name="toolTip">
+                   <string>选择音色</string>
+                  </property>
+                  <property name="toolTipDuration">
+                   <number>-1</number>
+                  </property>
+                  <property name="statusTip">
+                   <string/>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string comment="初始音色" extracomment="初始音色">综合1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击一下后音色">综合2</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击两下后音色">综合3</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击三下后音色">综合4</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击四下后音色">综合5</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击五下后音色">综合6</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击六下后音色">综合7</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string extracomment="点击七下后音色">综合8</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_8">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_11">
+         <property name="title">
+          <string>透明度</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <widget class="QSlider" name="horizontalSlider">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="toolTip">
+             <string>调节编辑区透明度</string>
+            </property>
+            <property name="maximum">
+             <number>255</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_touming">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_15">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;设置生成位置的坐标&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="title">
+          <string>设置起点坐标</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <property name="leftMargin">
+           <number>2</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
+          <item>
+           <widget class="QGroupBox" name="groupBox_12">
+            <property name="minimumSize">
+             <size>
+              <width>30</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>9</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>9</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_11">
+               <property name="maximumSize">
+                <size>
+                 <width>21</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>X:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="spinBox">
+               <property name="minimumSize">
+                <size>
+                 <width>81</width>
+                 <height>22</height>
+                </size>
+               </property>
+               <property name="maximum">
+                <number>9999999</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_13">
+            <property name="minimumSize">
+             <size>
+              <width>30</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_12">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_12">
+               <property name="maximumSize">
+                <size>
+                 <width>21</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Y:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="spinBox_2">
+               <property name="minimumSize">
+                <size>
+                 <width>81</width>
+                 <height>22</height>
+                </size>
+               </property>
+               <property name="maximum">
+                <number>9999999</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_14">
+            <property name="minimumSize">
+             <size>
+              <width>30</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_13">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_13">
+               <property name="maximumSize">
+                <size>
+                 <width>21</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Z:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="spinBox_3">
+               <property name="minimumSize">
+                <size>
+                 <width>81</width>
+                 <height>22</height>
+                </size>
+               </property>
+               <property name="maximum">
+                <number>9999999</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_5">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_16">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;在地图里面向&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ffaa00;&quot;&gt;N&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;方向&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; 右&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; 左&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; 前&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; 后&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="title">
+          <string>设置生成方向</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_14">
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <property name="leftMargin">
+           <number>2</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>Face:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="spinBox_4">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>4</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+           <stylestrategy>PreferAntialias</stylestrategy>
+          </font>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="button_openFile">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>26</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>85</width>
+              <height>26</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+              <stylestrategy>PreferAntialias</stylestrategy>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>打开文件</string>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>打开</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="button_newFile">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>26</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>85</width>
+              <height>26</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+              <stylestrategy>PreferAntialias</stylestrategy>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>保存文件</string>
+            </property>
+            <property name="text">
+             <string>保存</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="button_play">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>26</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+              <stylestrategy>PreferAntialias</stylestrategy>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>预览</string>
+            </property>
+            <property name="text">
+             <string>预览</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="button_function">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>26</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+              <stylestrategy>PreferAntialias</stylestrategy>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;预留功能&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="text">
+             <string>切换背景</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>像素画生成</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>教程</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>82</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_16">
+            <property name="text">
+             <string>Size:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_size">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="MYWIDGET" name="widget" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="MYPIANO" name="label_10">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="MYLABEL" name="label">
+            <property name="minimumSize">
+             <size>
+              <width>900</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="MYSCROLL" name="label_2">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MYLABEL</class>
+   <extends>QLabel</extends>
+   <header location="global">mylabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MYSCROLL</class>
+   <extends>QLabel</extends>
+   <header location="global">myscroll.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MYWIDGET</class>
+   <extends>QWidget</extends>
+   <header location="global">mywidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MYPIANO</class>
+   <extends>QLabel</extends>
+   <header location="global">mypiano.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
